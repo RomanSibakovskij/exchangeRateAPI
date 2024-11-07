@@ -20,7 +20,7 @@ jobs:
           npm install -g newman-reporter-html
       - name: Fetch Postman collection
         run: |
-          curl -X GET "https://api.getpostman.com/collections/mdmt8gd" \
+          curl -X GET "https://api.getpostman.com/collections/36297486-8ac678d9-0527-443d-8590-4e7c2d042dd4" \
             -H "X-Api-Key: ${POSTMAN_API_KEY}" > collection.json
       - name: Fetch Postman environment
         run: |
